@@ -3,21 +3,28 @@
 
 
 
- [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# EchoFlow
 
-Follow these steps:
+A speech therapy gamification platform that makes speech exercises engaging through interactive games and challenges. This project was proudly showcased at **TECHNAVYA - PROJECT EXPO**, our university's premier tech festival.
 
+## Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) (optional but recommended for version management)
+
+### Installation
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/akshanshmaurya/EchoFlow.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd talkify-therapy-gamify
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
@@ -35,14 +42,28 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+## Project Highlights
 
-This project is built with .
+- **TECHNAVYA Showcase**: This project was selected for exhibition at TECHNAVYA - PROJECT EXPO, demonstrating innovative applications of technology in speech therapy.
+- **Gamified Learning**: Turns traditional speech exercises into engaging games and challenges.
+- **Real-time Feedback**: Provides instant feedback on pronunciation and speech patterns.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Technology Stack
+
+The project leverages modern web technologies for optimal performance and developer experience:
+
+- ⚡ **Vite** - Next generation frontend tooling
+- 🏗️ **TypeScript** - Type-safe JavaScript
+- ⚛️ **React** - Component-based UI library
+- 🎨 **shadcn-ui** - Beautifully designed components
+- 🖌️ **Tailwind CSS** - Utility-first CSS framework
+
+## Features
+
+- Interactive speech exercises
+- Progress tracking and analytics
+- Customizable difficulty levels
+- Multi-user support
+- Responsive design for all devices
 
 
